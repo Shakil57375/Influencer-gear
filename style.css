@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    background: rgb(255, 255, 255);
+}
+.container{
+    padding: 5rem 7.5rem 3rem;
+}
+
+/*-----------------
+Start of header section 
+----------------------*/
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.navigation ul{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.navigation ul li{
+    list-style: none;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navigation ul > i{
+    font-size: 1.5rem;
+}
+/*-----------------
+End of header section 
+----------------------*/
+/*-----------------
+Start of main-header section 
+----------------------*/
+.main-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4.5rem;
+}
+
+.main-header-info .header-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+    color: #3A3A3A;
+}
+
+.main-header-info .header-dec{
+    font-size: 1rem;
+    color: #3A3A3A;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    border: none;
+    outline: none;
+    background: #E02C6D;
+    padding: 0.8rem 2rem;
+    border-radius: 1.5rem;
+}
+
+.btn-text{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    background: transparent;
+    color: #fff;
+}
+
+.btn-icon{
+    background: transparent;
+    color: #fff;
+    font-size: 1.1rem;
+}
+.header-img img{
+    width: 100%;
+    padding-right: 7rem;
+}
+
+.e-comarce-main{
+    background: #fff;
+    box-shadow: rgb(0 0 0 / 15%) 0.0px 2.95px 6.6px, rgb(0 0 0 / 15%) 0.0px -2.05px 6.6px;
+    display: flex;
+    align-items: center;
+    padding: 2rem 5rem;
+    justify-content: space-around;
+}
