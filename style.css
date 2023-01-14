@@ -97,9 +97,29 @@ Start of main-header section
     color: #fff;
     font-size: 1.1rem;
 }
+
+.header-img::before{
+    position: absolute;
+    content: " ";
+    background-image: url(images/main-camera.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    top: 17%;
+    right: -17%;
+    z-index: 4;
+}
+
 .header-img img{
     width: 100%;
-    padding-right: 7rem;
+    position: relative;
+    padding-right: 9rem;
+    z-index: 2;
+}
+
+.hide{
+    display: none;
 }
 
 .e-comarce-main{
@@ -109,4 +129,16 @@ Start of main-header section
     align-items: center;
     padding: 2rem 5rem;
     justify-content: space-around;
+}
+/*-----------------
+End of main-header section 
+----------------------*/
+/*-----------------
+Start of popular collection section 
+----------------------*/
+.collection_title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 30px;
 }
